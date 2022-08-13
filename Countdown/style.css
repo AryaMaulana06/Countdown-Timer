@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.isi-semua {
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 5rem;
+    color: white;
+    font-weight: bold;
+    color: black;
+}
+
+span {
+    font-weight: bold;
+    font-family: 'comic sans ms';
+}
+
+img {
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.countdown-container {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+    
+.countdown-el span {
+    font-size: 15px;
+}
